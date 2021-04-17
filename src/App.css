@@ -196,3 +196,31 @@ h1 {
 .results button i {
   margin-right: 5px;
 }
+
+/* @media screen and (max-width: 380px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .question .globe {
+    width: 130px;
+    top: -55px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .question .globe {
+    width: 110px;
+    top: -45px;
+  }
+
+  .question {
+    padding-top: 25px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+} */

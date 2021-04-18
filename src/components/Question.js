@@ -64,6 +64,7 @@ const Question = ({ question, setStage, stage, result, setResult }) => {
         ))}
       </ul>
       {answered && <button onClick={next}>Next</button>}
+      <span className="q">Q{stage + 1}/10</span>
     </div>
   );
 };

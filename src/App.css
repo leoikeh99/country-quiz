@@ -113,6 +113,15 @@ h1 {
   cursor: pointer;
 }
 
+.question .q {
+  position: absolute;
+  bottom: 20px;
+  left: 28px;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #2f527b;
+}
+
 .question ul li.success {
   background: #60bf88;
   border: 1px solid #60bf88;
@@ -197,7 +206,7 @@ h1 {
   margin-right: 5px;
 }
 
-/* @media screen and (max-width: 380px) {
+@media screen and (max-width: 380px) {
   h1 {
     font-size: 1.4rem;
   }
@@ -211,11 +220,15 @@ h1 {
 @media screen and (max-width: 330px) {
   .question .globe {
     width: 110px;
-    top: -45px;
+    top: -50px;
   }
 
   .question {
     padding-top: 25px;
+  }
+
+  .question ul li {
+    margin-bottom: 10px;
   }
 }
 
@@ -223,4 +236,4 @@ h1 {
   h1 {
     font-size: 1.3rem;
   }
-} */
+}
